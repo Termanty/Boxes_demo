@@ -6,9 +6,9 @@ import firm from './components/data.json'
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <Main firm={firm}></Main>
-      <Footer></Footer>   
+      <Header />
+      <Main firm={firm} />
+      <Footer /> 
     </div>
   );
 }
